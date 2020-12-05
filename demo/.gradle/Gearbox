@@ -1,0 +1,9 @@
+
+public class Gearbox {
+
+    private boolean clutchIsIn;
+
+    public void operateClutch(boolean inOut) {
+    	this.clutchIsIn = inOut;
+    }
+}
